@@ -1,0 +1,24 @@
+- name: "Reading user informations"
+  read_csv:
+    path: /home/ubuntu/users.csv
+  register: usersList
+
+- name: create access key for
+  iam:
+    iam_type: user
+    name: "{{ user.name }}"
+    state: present
+    password: "{{ user.password }}"
+    groups: "{{ user.group }}"
+    access_key_state: create
+  loop: "{{ usersList.list }}"
+  loop_control:
+    loop_var: user
+
+    #- name: Update user
+    #iam:
+    #iam_type: user
+    #name: samuel
+    #state: update
+    #groups: 
+    #  - "CloudAdmin"

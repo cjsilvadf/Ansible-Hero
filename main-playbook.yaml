@@ -1,0 +1,9 @@
+---
+- name: "Starting the tasks: Creates IAM user and group"
+  hosts: localhost
+  connection: local
+  gather_facts: True
+  
+  tasks:    
+    - include: tasks/create_user.yaml
+      tags: user
