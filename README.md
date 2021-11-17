@@ -10,7 +10,9 @@ $ aws configure
 - Change path of file users.csv
 
 - Install aws module:
+```
 $ ansible-galaxy collection install community.aws
+```
 https://docs.ansible.com/ansible/latest/collections/community/aws/iam_module.html
 https://docs.ansible.com/ansible/latest/scenario_guides/guide_aws.html
 
