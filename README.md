@@ -26,10 +26,12 @@ Collection    Version
 amazon.aws    2.0.0
 community.aws 2.0.0
 
+## add policy:
+- PowerUserExampleRwn.json
+
 ## run tests:
 ```
 $ ansible-playbook main-playbook
 ```
 
-## add policy:
-- PowerUserExampleRwn.json
+
