@@ -31,4 +31,5 @@ community.aws 2.0.0
 $ ansible-playbook main-playbook
 ```
 
-
+## add policy:
+- PowerUserExampleRwn.json
