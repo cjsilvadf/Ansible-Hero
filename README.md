@@ -9,7 +9,7 @@
 - Install aws module
 https://docs.ansible.com/ansible/latest/scenario_guides/guide_aws.html
 
-- Verify module install
+- Verify module installed: 
 ansible-galaxy collection list
 
 Collection    Version
