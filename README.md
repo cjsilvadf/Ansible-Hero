@@ -26,8 +26,9 @@ Collection    Version
 amazon.aws    2.0.0
 community.aws 2.0.0
 
-## add policy:
-- PowerUserExampleRwn.json
+## policy user automation:
+- add this policy PowerUserExampleRwn.json
+- disable MFA
 
 ## run tests:
 ```
