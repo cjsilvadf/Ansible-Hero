@@ -28,7 +28,6 @@ community.aws 2.0.0
 
 ## policy user automation:
 - add this policy PowerUserExampleRwn.json
-- disable MFA
 
 ## run tests:
 ```
